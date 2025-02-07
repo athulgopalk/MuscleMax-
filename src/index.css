@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body {
+  font-family: 'poppins';
+
+}
+
+.hero-right{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

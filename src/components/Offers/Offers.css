@@ -1,0 +1,112 @@
+.offers{
+    width: 65%;
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #d3d3d3,#e1ffea22 60%);
+    
+}
+.offers-left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.offers-left h1{
+    color:#171717;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.offers-left p{
+    color:#171717;
+    font-size: 22px;
+    font-weight: 600;
+}
+/* .offers-left button{
+    width: 282px;
+    height: 70px;
+    border-radius: 18px;
+    background:#f4cb2b;
+    color:black ;
+    border: none;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size:18px ;
+}
+
+.offers-left button:active{
+    background:#e8c125;
+} */
+
+/* From Uiverse.io by alexmaracinaru */ 
+.cta {
+  border: none;
+  background: none;
+  cursor: pointer;
+  align-self: self-start;
+  padding-top: 30px;
+  
+}
+
+.cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+.cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active svg {
+  transform: scale(0.9);
+}
+
+.hover-underline-animation {
+  position: relative;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #f4cb2b;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.offers-right{
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 50px;
+}
+.exclusive-image{
+    width: 300px;
+    height: auto;
+    
+}
