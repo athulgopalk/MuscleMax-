@@ -25,3 +25,53 @@
     display: flex;
     gap: 30px;
 }
+
+@media (max-width: 1500px) {
+    .popular {
+        height: auto;
+        text-align: center;
+        padding: 5%;
+    }
+
+    .popular h1 {
+        font-size: 2.5rem; /* Reduce heading size */
+    }
+
+    .popular-item {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+        gap: 30px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .popular h1 {
+        font-size: 2rem;
+    }
+
+    .popular-item {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .popular h1 {
+        font-size: 1.8rem;
+    }
+
+    .popular-item {
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .popular h1 {
+        font-size: 1.5rem;
+    }
+
+    .popular-item {
+        gap: 10px;
+    }
+}

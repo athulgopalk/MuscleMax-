@@ -72,3 +72,102 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+@media (max-width: 992px) {
+    .loginsignup-container {
+        width: 480px;
+        padding: 30px 50px;
+    }
+    .loginsignup-fields input {
+        height: 38px;
+        font-size: 14px;
+    }
+    .loginsignup-container button {
+        width: 250px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .loginsignup-login {
+        font-size: 16px;
+    }
+    .loginsignup-agree {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .loginsignup-container {
+        width: 380px;
+        padding: 25px 40px;
+    }
+    .loginsignup-fields input {
+        height: 36px;
+        font-size: 13px;
+    }
+    .loginsignup-container button {
+        width: 220px;
+        height: 55px;
+        font-size: 18px;
+        border-radius: 15px;
+    }
+    .loginsignup-login {
+        font-size: 14px;
+    }
+    .loginsignup-agree {
+        font-size: 14px;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .loginsignup {
+        padding-top: 50px;
+    }
+    .loginsignup-container {
+        width: 300px;
+        padding: 20px 30px;
+    }
+    .loginsignup-container h1 {
+        font-size: 20px;
+    }
+    .loginsignup-fields input {
+        height: 32px;
+        font-size: 12px;
+    }
+    .loginsignup-container button {
+        width: 180px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .loginsignup-login {
+        font-size: 12px;
+    }
+    .loginsignup-agree {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    .loginsignup-container {
+        width: 260px;
+        padding: 15px 25px;
+    }
+    .loginsignup-container h1 {
+        font-size: 18px;
+    }
+    .loginsignup-fields input {
+        height: 30px;
+        font-size: 11px;
+    }
+    .loginsignup-container button {
+        width: 160px;
+        height: 45px;
+        font-size: 14px;
+    }
+    .loginsignup-login {
+        font-size: 10px;
+    }
+    .loginsignup-agree {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,161 @@
+.mobile-navbar {
+  padding: 12px 16px;
+  box-shadow: 0 1px 3px -2px black;
+  position: relative;
+  background: white;
+}
+
+.mobile-nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.mobile-logo {
+  width: 60px;
+  height: auto;
+}
+
+.mobile-menu-icon {
+  width: 30px;
+  cursor: pointer;
+}
+
+.mobile-nav-cart {
+  position: relative;
+  margin-left:300px;
+}
+
+.mobile-nav-cart img {
+  width: 30px;
+}
+
+.mobile-nav-cart-counter {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #f4cb2b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+/* Dropdown Menu */
+.mobile-nav-menu {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 12px;
+  width: 200px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+}
+
+/* Show menu when active */
+.mobile-nav-menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.mobile-nav-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mobile-nav-menu ul li {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.mobile-nav-menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.mobile-nav-login-cart button {
+  width: 100px;
+  height: 35px;
+  background: #f4cb2b;
+  color: black;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.mobile-nav-login-cart button:hover {
+  background: #e0b924;
+  transform: scale(1.05);
+}
+
+
+.mobile-nav-login-cart button:active {
+  background: #c9a51f;
+  transform: scale(0.98);
+}
+
+.mobile-nav-cart-login-container{
+  width: 100px;
+}
+
+/* Responsive: Smaller screens */
+@media (max-width: 480px) {
+  .mobile-nav-login-cart button {
+    width: 90px;
+    height: 32px;
+    font-size: 14px;
+  }
+}
+
+
+/* Responsive: Smaller screens */
+@media (max-width: 480px) {
+  .mobile-navbar {
+    padding: 10px;
+  }
+  .mobile-nav-cart{
+margin-left: 0;
+  }
+  .mobile-logo {
+    width: 50px;
+  }
+
+  .mobile-menu-icon {
+    width: 25px;
+  }
+
+  .mobile-nav-cart img {
+    width: 25px;
+  }
+
+  .mobile-nav-cart-counter {
+    width: 14px;
+    height: 14px;
+    font-size: 12px;
+  }
+
+  .mobile-nav-menu {
+    width: 180px;
+    padding: 10px;
+  }
+
+  .mobile-nav-menu a {
+    font-size: 14px;
+  }
+}

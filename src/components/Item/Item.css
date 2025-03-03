@@ -44,3 +44,88 @@
     text-decoration: none;
     color: black;
 }
+
+
+@media (max-width: 1500px) {
+    .item img {
+        width: 260px;
+    }
+
+    .item p {
+        font-size: 17px;
+    }
+
+    .item-price-new, .item-price-old {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .item img {
+        width: 240px;
+    }
+
+    .item p {
+        font-size: 16px;
+    }
+
+    .item-price-new, .item-price-old {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .item img {
+        width: 220px;
+    }
+
+    .item p {
+        font-size: 15px;
+    }
+
+    .item-price-new, .item-price-old {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .item img {
+        width: 200px;
+    }
+
+    .item p {
+        font-size: 14px;
+    }
+
+    .item-price-new, .item-price-old {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .item img {
+        width: 180px;
+    }
+
+    .item p {
+        font-size: 13px;
+    }
+
+    .item-price-new, .item-price-old {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 400px) {
+    .item img {
+        width: 160px;
+    }
+
+    .item p {
+        font-size: 12px;
+    }
+
+    .item-price-new, .item-price-old {
+        font-size: 12px;
+    }
+}

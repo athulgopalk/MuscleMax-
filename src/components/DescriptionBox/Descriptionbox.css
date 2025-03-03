@@ -1,0 +1,109 @@
+.descriptionbox{
+    margin: 9% 170px;
+}
+.descriptionbox-navigator{
+    display: flex;
+}
+.descriptionbox-nav-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 171 px;
+    height: 70px;
+    border: 1px solid #d0d0d0;
+    padding: 5px;
+}
+.descriptionbox-nav-box-fade{
+    background: #FBFBFB;
+    color: #555;
+}
+.descriptionbox-description{
+    display: flex;
+    flex-direction: column;
+    gap: 25;
+    border: 1px solid #D0D0D0;
+    padding: 48px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 1500px) {
+    .descriptionbox {
+        margin: 9% 120px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .descriptionbox {
+        margin: 8% 80px;
+    }
+    .descriptionbox-nav-box {
+        font-size: 15px;
+        width: 160px;
+        height: 65px;
+    }
+    .descriptionbox-description {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .descriptionbox {
+        margin: 7% 50px;
+    }
+    .descriptionbox-nav-box {
+        width: 140px;
+        height: 60px;
+        font-size: 14px;
+    }
+    .descriptionbox-description {
+        padding: 35px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .descriptionbox {
+        margin: 6% 30px;
+    }
+    .descriptionbox-nav-box {
+        width: 130px;
+        height: 55px;
+        font-size: 13px;
+    }
+    .descriptionbox-description {
+        padding: 30px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 576px) {
+    .descriptionbox {
+        margin: 5% 20px;
+    }
+    .descriptionbox-nav-box {
+        font-size: 12px;
+        width: 120px;
+        height: 50px;
+    }
+    .descriptionbox-description {
+        padding: 25px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    .descriptionbox {
+        margin: 4% 10px;
+    }
+    .descriptionbox-nav-box {
+        font-size: 11px;
+        width: 110px;
+        height: 45px;
+    }
+    .descriptionbox-description {
+        padding: 20px;
+        font-size: 11px;
+    }
+}
